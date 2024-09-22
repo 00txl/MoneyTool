@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Common.hpp" />
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>UI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>UI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>UI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>UI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>UI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>UI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>UI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.hpp">
+      <Filter>Game\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>UI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHook.hpp">
+      <Filter>Game\Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.hpp">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.hpp">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.hpp">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.hpp">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>UI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>UI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>UI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>UI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>UI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>UI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.cpp">
+      <Filter>Game\Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="UI">
+      <UniqueIdentifier>{ecc0c417-7337-4bc2-9065-d782bd27e533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\ImGui">
+      <UniqueIdentifier>{af0d5294-30cd-4cb9-96a9-3b5c87887439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{ef5802a6-89f7-4c16-b8a6-67659d1355d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Hooking">
+      <UniqueIdentifier>{67bb60ba-742f-4e2f-b3f4-9200f3624589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{c8ee8842-4b18-4d0d-9b5b-42bfbe8f8958}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
